@@ -9,14 +9,6 @@ Toutes les transformations sont **fittées sur le train** et **appliquées**
 au validation/test via des classes ``Fit/Transform`` (style scikit-learn).
 Aucune statistique du test ne fuite dans le train.
 
-Modules logiques (correspondant aux phases du notebook) :
-  - Phase 1 : ``temporal_split``        — split temporel 70/15/15
-  - Phase 2 : ``MissingHandler``        — flags + imputation
-  - Phase 3 : ``RareCategoryGrouper``   — regroupement par fréquence
-  - Phase 4 : ``WoEEncoder``            — encoding WoE (catégorielles)
-              ``TargetEncoder``         — encoding par taux moyen (zip)
-  - Phase 5 : ``add_derived_features``  — tenure_months
-  - Phase 6 : helpers de vérification (IV, corrélation)
 """
 
 from dataclasses import dataclass, field
