@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/LauraCarolinaFuentos/Documents/scoring-meelo/mlruns/779455752081223829/82262ee5dc0f4aa19b1ea111c0d886cc/artifacts
+end_time: 1782830333720
+entry_point_name: ''
+experiment_id: '779455752081223829'
+lifecycle_stage: active
+run_id: 82262ee5dc0f4aa19b1ea111c0d886cc
+run_name: c_catboost_baseline
+run_uuid: 82262ee5dc0f4aa19b1ea111c0d886cc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1782830326127
+status: 3
+tags: []
+user_id: LauraCarolinaFuentos
